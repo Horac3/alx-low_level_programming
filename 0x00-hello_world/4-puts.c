@@ -1,9 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+/**
+ * main - C program that prints with puts
+ * Return: Always 0 (Success)
+ */
+void main(void)
 {
-    char MyChar[] = "Programming is like building a multilingual puzzle\n";
-    puts(MyChar);
-    return 0;
+puts("\"Programming is like building a multilingual puzzle\n");
+return (0);
 }
