@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include <unistd.h>
+
 /**
  * main - C program that prints the without printf or puts
  * Return: Always 0 (Success)
