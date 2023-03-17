@@ -18,5 +18,6 @@ while (letter <= 'Z')
 putchar(letter);
 letter++;
 }
+putchar("\n")
 return (0);
 }
