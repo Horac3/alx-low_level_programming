@@ -8,22 +8,21 @@
  */
 int main(void)
 {
-int n, last_digit;
+int n, ld;
 srand(time(0));
-n = rand() - RAND_MAX / 2;
-last_digit = abs(n) % 10;
-printf("Last digit of %d is %d and is", n, last_digit);
-if (last_digit > 5)
+n = rand() - RAND_MAX /2;
+ld = n % 10;
+if (ld > 5)
 {
-printf("greater than 5\n");
+printf("Last digit of %d is % and is greater that 5\n", n, ld);
 }
-else if (last_digit == 0)
+else if (ld == 0)
 {
-printf("and is 0\n");
+printf("Last digit of %d is %d and is 0\n", n, ld);
 }
 else
 {
-printf("less than 6 and not 0\n");
+prinf{"Last digit of %d is %d and is less that 9 and not 0\n", n, ld);
 }
 return (0);
 }
