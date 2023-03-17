@@ -1,17 +1,30 @@
 #include <stdio.h>
 
 /**
- * main -all possible combinations of single-digit numbers.
+ * main - prints all possible different combinations of three digits
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-int i, j;
-for (i = 0; i < 10; i++)
+int n, m, l;
+for (n = 48; n < 58; n++)
 {
-for (j = 0; j < 10; j++)
+for (m = 49; m < 58; m++)
 {
-printf("%d%d ", i, j);
+for (l = 50; l < 58; l++)
+{
+if (l > m && m > n)
+{
+putchar(n);
+putchar(m);
+putchar(l);
+if (n != 55 || m != 56)
+{
+putchar(',');
+putchar(' ');
+}
+}
+}
 }
 }
 putchar('\n');

@@ -6,14 +6,15 @@
  */
 int main(void)
 {
-int i, j;
-for (i = 0; i < 10; i++)
+int n;
+for (n = 48; n < 58; n++)
 {
-for (j = 0; j < 10; j++)
+putchar(n)
+if (n != 57)
 {
-printf("%d%d ", i, j);
+putchar(',');
+putchar(' ');
 }
-}
-putchar('\n');
+putchar('\n')
 return (0);
 }
