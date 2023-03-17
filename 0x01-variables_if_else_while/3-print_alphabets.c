@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - C program that prints with puts
+ * main - C program that prints with alphabets
  * Return: Always 0 (Success)
  */
 int main(void)
@@ -12,7 +12,6 @@ while (letter <= 'z')
 putchar(letter);
 letter++;
 }
-putchar('\n');
 letter = 'A';
 while (letter <= 'Z')
 {
