@@ -22,7 +22,7 @@ printf("Last digit of %d is %d and is 0\n", n, ld);
 }
 else
 {
-prinf{"Last digit of %d is %d and is less than 9 and not 0\n", n, ld);
+printf{"Last digit of %d is %d and is less than 9 and not 0\n", n, ld);
 }
 return (0);
 }
