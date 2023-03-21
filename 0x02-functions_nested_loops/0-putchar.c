@@ -1,13 +1,19 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+#include "main.h"
 /**
- * main - C program that prints with last digit of an int
- * Return: Always 0 (Success)
- */
-
+* main - C program that prints _putchar without printf or gets
+* Return: 0 - Success
+*/
 int main(void)
 {
-printf("_putchar");
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 return (0);
 }
+
