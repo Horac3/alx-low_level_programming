@@ -14,6 +14,6 @@ int _strlen(char *c)
 		c++;
 	}
 
-	return (longi);
+	return (len);
 }
 
