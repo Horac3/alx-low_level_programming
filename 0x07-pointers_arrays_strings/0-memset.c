@@ -13,7 +13,7 @@ char *_memset(char *s, char b, unsigned int n)
 	unsigned int mem_size;
 
 	mem_size = 0;
-	while (x < mem_size)
+	while (mem_size < n)
 	{
 	s[mem_size++] = b;
 	}
