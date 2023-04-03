@@ -2,25 +2,25 @@
 
 /**
  * _strncpy - copy a string
- * @dest: input value
- * @src: input value
+ * @str1: input value
+ * @str2: input value
  * @n: input value
- * Return: dest
+ * Return: str1
 */
-char *_strncpy(char *dest, char *src, int n)
+char *_strncpy(char *str1, char *str2, int n)
 {
 int j;
 j = 0;
-while (j < n && src[j] != '\0')
+while (j < n && str2[j] != '\0')
 {
-dest[j] = src[j];
+str1[j] = str2[j];
 j++;
 }
 while (j < n)
 {
-dest[j] = '\0';
+str1[j] = '\0';
 j++;
 }
-return (dest);
+return (str1);
 }
 
