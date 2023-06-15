@@ -1,15 +1,22 @@
 #include <stdlib.h>
 #include "lists.h"
 
+/**
+ * free_dlistint- frees a list.
+ * @head: start of a node
+*/
+
 void free_dlistint(dlistint_t *head)
 {
-    dlistint_t *current = head;
-    dlistint_t *next;
+	dlistint_t *current;
+	dlistint_t *next;
 
-    while (current != NULL)
-    {
-        next = current->next;
-        free(current);
-        current = next;
-    }
+	current = head;
+
+	while (current != NULL)
+	{
+		next = current->next;
+		free(current);
+		current = next;
+	}
 }

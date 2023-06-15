@@ -1,16 +1,25 @@
 #include <stdlib.h>
 #include "lists.h"
 
+/**
+ * sum_dlistint - returns the sum of all the data in linked list.
+ * @head: beginning of a node
+ * Return: sum
+ *
+ */
+
 int sum_dlistint(dlistint_t *head)
 {
-    int sum = 0;
-    dlistint_t *current = head;
+	int sum;
+	dlistint_t *current;
 
-    while (current != NULL)
-    {
-        sum += current->n;
-        current = current->next;
-    }
+	sum = 0;
+	current = head;
 
-    return sum;
+	while (current != NULL)
+	{
+		sum += current->n;
+		current = current->next;
+	}
+	return (sum);
 }
