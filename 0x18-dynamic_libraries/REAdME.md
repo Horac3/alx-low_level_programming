@@ -1,2 +1,1 @@
-Dynamic linking in C.
-gcc -fPIC -c *.c
+Dynamic linking in C....
