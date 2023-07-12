@@ -1,1 +1,2 @@
-# C - Hash
+# C - Hash Tables
+
