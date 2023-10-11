@@ -4,14 +4,14 @@
 #include <unistd.h>
 
 /**
- * linear_search - searches for a value in an array of
- * integers using the Linear search algorithm
- * @array: array to search the value in
- * @size: size of the array
- * @value: value to look for
+ * linear_search - Function that implements the linear search algorithm
+ * to search for a specific value in an array of integers.
  *
- * Return: the index of the found value,
- * or -1 if not found
+ * @array: A pointer to the array of integers to be searched.
+ * @size: The size of the array.
+ * @value: The value to be searched for in the array.
+ *
+ * Return: The index of the value if found, otherwise -1.
  */
 int linear_search(int *array, size_t size, int value)
 {
